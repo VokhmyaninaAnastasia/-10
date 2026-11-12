@@ -119,14 +119,12 @@ namespace PR_10
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Ошибка! Выход за границы массива: " + ioex.Message);
-
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (Exception ex)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Ошибка! Что-то пошло не так !" + ex.Message);
-
                     Console.ForegroundColor = ConsoleColor.White;
                 }
 
